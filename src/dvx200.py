@@ -4,6 +4,9 @@
 ### https://www.manualslib.com/manual/1914724/Panasonic-Ag-Dvx200.html?page=14#manual
 ### https://www.youtube.com/watch?v=RwZS3p133PY
 
+### TODO:
+### 
+
 from settings import get_default_settings
 
 
