@@ -1,0 +1,59 @@
+Last login: Sun Mar 13 10:25:40 on console
+[oh-my-zsh] Would you like to update? [Y/n] n
+[oh-my-zsh] You can update manually by running `omz update`
+➜  ~ open projects
+➜  ~ cd projects
+➜  projects git:(master) cd ..
+➜  ~ ls 
+Applications Documents    Library      Music        Projects
+Desktop      Downloads    Movies       Pictures     Public
+➜  ~ pwd
+/Users/narekarutyunyan
+➜  ~ mkdir code 
+➜  ~ cd code
+➜  code git clone https://github.com/goalexey/dvx200.git
+Cloning into 'dvx200'...
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 14 (delta 1), reused 13 (delta 0), pack-reused 0
+Receiving objects: 100% (14/14), done.
+Resolving deltas: 100% (1/1), done.
+➜  code ls
+dvx200
+➜  code cd dvx200
+➜  dvx200 git:(main) git pull
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 3), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (5/5), 1.10 KiB | 187.00 KiB/s, done.
+From https://github.com/goalexey/dvx200
+   76a8a55..14355dd  main       -> origin/main
+Updating 76a8a55..14355dd
+Fast-forward
+ src/dvx200.py | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+➜  dvx200 git:(main) git checkout -b narek01
+Switched to a new branch 'narek01'
+➜  dvx200 git:(narek01) ls 
+README.md src
+➜  dvx200 git:(narek01) mkdir notes
+➜  dvx200 git:(narek01) cd notes
+➜  notes git:(narek01) touch notes_2022-03-13.txt
+➜  notes git:(narek01) ✗ open.
+zsh: command not found: open.
+➜  notes git:(narek01) ✗ open .
+➜  notes git:(narek01) ✗ 
